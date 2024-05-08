@@ -5,11 +5,15 @@ body {
     background-color: #f4f4f4;
 }
 
+
 header {
-    background-color: #333;
+    background-color: #0c0394;
     color: white;
     padding: 10px 0;
     text-align: center;
+}
+h1 {
+    font-size: 24px;
 }
 
 #hamburger-menu {
@@ -25,6 +29,7 @@ header {
     height: 3px;
     background-color: white;
     margin: 4px;
+    
 }
 
 nav ul {
@@ -33,6 +38,7 @@ nav ul {
     display: flex;
     justify-content: center;
     transition: all 0.5s ease;
+    
 }
 
 nav ul li {
@@ -64,11 +70,13 @@ nav ul li a {
 @media screen and (max-width: 600px) {
     #hamburger-menu {
         display: block;
+        
     }
 
     nav ul {
         display: none;
         flex-direction: column;
+  
     }
 
     nav ul li {
