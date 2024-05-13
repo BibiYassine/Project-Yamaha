@@ -7,10 +7,18 @@ body {
 
 
 header {
-    background-color: #0c0394;
+    background-color: #000000;
     color: white;
     padding: 10px 0;
     text-align: center;
+}
+
+footer{
+    background-color: #000000;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+
 }
 h1 {
     font-size: 24px;
