@@ -84,6 +84,10 @@ nav ul li a {
     nav ul {
         display: none;
         flex-direction: column;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+
     }
 
     nav ul li {
